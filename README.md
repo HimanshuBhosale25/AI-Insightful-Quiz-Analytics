@@ -20,7 +20,7 @@ A key feature of this project is the use of **AI-driven insights** and **Large L
 - **Backend**: FastAPI, Python, Pandas, Matplotlib, Seaborn, OpenAI API
 - **Database**: No database used (works with the uploaded data)
 - **Visualizations**: Matplotlib, Seaborn
-- **AI/LLM**: OpenAI GPT-4 model
+- **AI/LLM**: OpenAI GPT-4o-mini model
 - **Deployment**: Can be deployed locally using `uvicorn` and `npm start`
 
 ## How AI is Used 🤖
@@ -38,7 +38,7 @@ AI, specifically **Large Language Models (LLMs)** like **GPT-4o-mini**, play a c
 2. **Teacher-like Response Generation**: After generating the insights, the **OpenAI GPT-4 model** is used to interpret the data and provide a personalized, encouraging response. This AI-generated feedback includes:
    - **Strengths and Weaknesses**: The AI highlights the student's strengths and areas where they can improve.
    - **Actionable Suggestions**: Based on performance gaps, the AI suggests ways to improve, such as focusing on certain topics or improving accuracy on specific question types.
-   - **Performance Analysis**: The AI uses the historical trends to predict potential performance in future exams (e.g., NEET in India).
+   - **Performance Analysis**: Although it is very difficult to predict ranks from the scores in the given data,the AI uses historical trends to predict potential performance in future exams (e.g., NEET in India).
 
 The AI model ensures that the feedback is not only relevant and insightful but also motivational, helping students stay engaged and focused on areas that need improvement.
 
@@ -54,7 +54,7 @@ The AI model ensures that the feedback is not only relevant and insightful but a
 ### Backend Setup (Python)
 1. Clone the repository:
     ```bash
-    git clone <repo_url>
+    git clone <https://github.com/HimanshuBhosale25/AI-insightful-quiz-analytics.git>
     cd backend
     ```
 
@@ -107,17 +107,22 @@ The backend processes the uploaded JSON data using **Pandas**, ensuring proper f
 - **Score Range Distribution**: Visualizes the distribution of scores in various ranges (e.g., Poor, Average, Good, Excellent).
 
 ### Visualizations:
+
 - **Score Progression Chart**: Line chart showing the evolution of scores across different topics.
+  
 - **Score Distribution**: Bar chart showing average scores per topic.
+
 - **Score Trend Over Time**: Line chart showing the average score trend over submission times.
+
+- **Score Range Distribution**: Pie chart showing the distribution of scores across different ranges.
+
+- **Score Improvement Over Time**: Scatter plot showing the improvement of scores over time for individual students.
+
 - **Mistake Correction Heatmap**: Heatmap that displays patterns of mistake correction across quizzes and attempts.
 
-### AI-Generated Teacher Feedback:
-Using the **OpenAI GPT-4 model**, the system generates natural, motivational feedback based on the data. The AI analyzes performance gaps, trends, and areas of strength, and generates feedback such as:
-- **"Your score in Physics is showing a consistent upward trend!"**
-- **"You could benefit from focusing more on Chemistry."**
-- **"Great job on the last quiz! Keep it up, and you’ll see even more improvement!"**
 
+### AI-Generated Teacher Feedback:
+Using the **OpenAI GPT-4o-mini model**, the system generates natural, motivational feedback based on the data. The AI analyzes performance gaps, trends, and areas of strength, and generates feedbacks.
 This AI-driven feedback is personalized for each student based on their performance, making the learning experience more engaging and effective.
 
 ## Screenshots 📸
@@ -134,7 +139,7 @@ This AI-driven feedback is personalized for each student based on their performa
 ### 4. **Score Distribution Bar Chart**
 ![Score Distribution Bar Chart](images/Screenshot%202025-01-31%20225351.png)
 
-### 5. **Score Trend Scatterplot**
+### 5. **Score Trend Chart**
 ![Score Trend Scatterplot](images/Screenshot%202025-01-31%20225730.png)
 
 ### 6. **Score Range Distribution Pie Chart**
