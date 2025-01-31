@@ -133,7 +133,7 @@ This AI-driven feedback is personalized for each student based on their performa
 ### 2. **Insights**
 ![Insights](images/Screenshot%202025-01-31%20225038.png)
 
-### 3. **Score Progression by Topic**
+### 3. **Score Progression by Topic Line Chart**
 ![Score Progression by Topic](images/Screenshot%202025-01-31%20225337.png)
 
 ### 4. **Score Distribution Bar Chart**
