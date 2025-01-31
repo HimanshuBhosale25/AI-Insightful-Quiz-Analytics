@@ -123,16 +123,28 @@ This AI-driven feedback is personalized for each student based on their performa
 ## Screenshots 📸
 
 ### 1. **File Upload**
-![File Upload](./assets/screenshots/file-upload.png)
+![File Upload](images/Screenshot%202025-01-31%20224618.png)
 
-### 2. **Score Progression Chart**
-![Score Progression](./assets/screenshots/score-progression.png)
+### 2. **Insights**
+![Insights](images/Screenshot%202025-01-31%20225038.png)
 
-### 3. **Mistake Correction Heatmap**
-![Mistake Correction Heatmap](./assets/screenshots/mistake-correction-heatmap.png)
+### 3. **Score Progression by Topic**
+![Score Progression by Topic](images/Screenshot%202025-01-31%20225337.png)
 
-### 4. **Teacher's Insights**
-![Teacher Insights](./assets/screenshots/teacher-insights.png)
+### 4. **Score Distribution Bar Chart**
+![Score Distribution Bar Chart](images/Screenshot%202025-01-31%20225351.png)
+
+### 5. **Score Trend Scatterplot**
+![Score Trend Scatterplot](images/Screenshot%202025-01-31%20225730.png)
+
+### 6. **Score Range Distribution Pie Chart**
+![Score Range Distribution Pie Chart](images/Screenshot%202025-01-31%20225211.png)
+
+### 7. **Score Improvement Scatterplot**
+![Score Improvement Scatterplot](images/Screenshot%202025-01-31%20225259.png)
+
+### 8. **Mistake Correction Heatmap**
+![Mistake Correction Heatmap](images/Screenshot%202025-01-31%20225247.png)
 
 ## Future Improvements 🚀
 
