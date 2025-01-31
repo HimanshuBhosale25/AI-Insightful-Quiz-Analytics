@@ -1,0 +1,9 @@
+fastapi 
+uvicorn
+python-dotenv
+openai==0.28
+pandas
+python-multipart
+fastapi[all]
+matplotlib
+seaborn
